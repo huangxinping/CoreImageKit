@@ -316,7 +316,8 @@ class CoreImageRobot {
 						builder.pamameters.append("inout " + parameterKey + ": " + type)
 					}
 				} while 0 > 1
-				print(builder.description())
+//				print(builder.description())
+                print(builder.functionName)
 				if writeToFile {
 					buffer += builder.description() + "\n"
 				}
