@@ -228,7 +228,7 @@ zoomBlur
 
 ### 使用
 
-
+With Carthage:
 ```
 github "huangxinping/CoreImageKit" >= 1.0.0
 ```
